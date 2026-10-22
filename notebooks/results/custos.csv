@@ -1,0 +1,4 @@
+Modelo,FN (ataques perdidos),FP (alarmes falsos),Custo total
+Árvore,4558,353,45933
+XGBoost,4235,274,42624
+Random Forest,4354,276,43816
