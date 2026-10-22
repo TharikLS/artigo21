@@ -1,0 +1,4 @@
+Modelo,Acurácia,Precisão,Recall,F1,Treino final (s),Predição (ms/1000 conexões),FN (ataques perdidos),FP (alarmes falsos),Custo total,Hiperparâmetros
+Árvore,0.7822,0.9591,0.6448,0.7712,1.0568,1.2851,4558,353,45933,"{'min_samples_leaf': 1, 'max_depth': 20, 'criterion': 'entropy'}"
+XGBoost,0.8,0.9691,0.67,0.7923,2.2461,2.0843,4235,274,42624,"{'subsample': 0.7, 'n_estimators': 200, 'max_depth': 6, 'learning_rate': 0.3}"
+Random Forest,0.7946,0.9685,0.6607,0.7855,112.8699,7.2947,4354,276,43816,"{'n_estimators': 300, 'max_features': 0.5, 'max_depth': 24}"
