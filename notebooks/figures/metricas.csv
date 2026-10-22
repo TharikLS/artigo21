@@ -1,0 +1,4 @@
+Modelo,Acurácia,Precisão,Recall,F1,Treino final (s),Predição (ms/1000 conexões)
+Árvore,0.7822,0.9591,0.6448,0.7712,1.0568,1.2851
+XGBoost,0.8,0.9691,0.67,0.7923,2.2461,2.0843
+Random Forest,0.7946,0.9685,0.6607,0.7855,112.8699,7.2947
